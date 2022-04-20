@@ -28,6 +28,17 @@ const questions = [{
         message: 'How do you use this project? Usage?',
         name: 'Usage',
 
+    }, {
+        type: 'list',
+        message: 'What type of license would you like to add?',
+        choices: [
+            'MIT',
+            'GPL 3.0',
+            'Apache 2.0',
+            'BSD 3',
+
+        ],
+        name: 'License'
     },
     {
 
@@ -46,6 +57,11 @@ const questions = [{
 
 
 ];
+
+// Displays questions within node
+inquirer
+    .prompt(questions)
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
