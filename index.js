@@ -62,12 +62,12 @@ const questions = [{
 // Displays questions within node
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(_fileName, data) {
     fs.writeFile("./README.md", generateMarkdown(data), function(err) {
         if (err) {
             return console.log(err);
         }
-        console.log('Succesfully made!');
+        console.log('Succesfully Made!');
     })
 }
 
