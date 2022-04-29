@@ -20,8 +20,8 @@ This is a application that was made with just JavaScript and Node.js which helps
 ![contact](./assets/nodeindex.png)
 <p> refers to step 4
 
-![contact](./assets/Untitled_%20Apr%2020%2C%202022%2010_15%20PM.gif)
-<p> refers to step 5
+https://drive.google.com/file/d/1BgnKWFQXMgp2DNxqsPqyO1DbjVAxjbom/view 
+<p> refers to step 5 (link to walkthrough)
 
 ![contact](./assets/Screenshot%20(50).png)
 <p> refers to step 6 to complete README file
